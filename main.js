@@ -1,6 +1,6 @@
 let input, base, height, width, length, a, b, radius, area;
 
-input = prompt('Which shapes area you want to calculate?  1. Triangle 2. Rectangle 3. Parallelogram 4. square 5. Trapezium 6. Circle');
+input = prompt("Which shape's area you want to calculate?  1. Triangle 2. Rectangle 3. Parallelogram 4. square 5. Trapezium 6. Circle");
 
 if (input==1) {
 base = parseFloat(prompt('Enter the base:')); 
