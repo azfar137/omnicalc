@@ -138,6 +138,10 @@ else if (choice==2) {
   a = parseFloat(prompt('Enter the length of one side:'));
   surfaceArea = Math.sqrt(3)*(a**2);
  }
+
+ else {
+  alert('Enter a valid number stupid');
+ }
 }
 
 //volume calculation section 
