@@ -137,7 +137,7 @@ else if (choice==2) {
  else if (input==8) {
   a = parseFloat(prompt('Enter the length of one side:'));
   surfaceArea = Math.sqrt(3)*(a**2);
-  document.write('The surface area of regular tetrahedron is'+surfaceArea);
+  document.write('The surface area of regular tetrahedron is:'+surfaceArea);
  }
 
  else {
