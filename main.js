@@ -1,4 +1,4 @@
-let choice = prompt('Choose what you want to calculate? 1. Area of 2D shapes 2. Surface area of 3D shapes 3. Volume 4. Temperature');
+let choice = prompt('Choose what you want to calculate: 1. Area of 2D shapes 2. Surface area of 3D shapes 3. Volume 4. Temperature');
 
 // area calculation section
 if (choice==1) {
