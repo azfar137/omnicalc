@@ -96,7 +96,7 @@ else if (choice==2) {
   l = parseFloat(prompt('Enter the length:'));
   w = parseFloat(prompt('Enter the width:'));
   h = parseFloat(prompt('Enter the height:'));
-  surfaceArea = 2((l*w)+(l*h)+(w*h));
+  surfaceArea = 2*((l*w)+(l*h)+(w*h));
   document.write('The surface area of cuboid is:'+surfaceArea);
  }
  
@@ -137,6 +137,7 @@ else if (choice==2) {
  else if (input==8) {
   a = parseFloat(prompt('Enter the length of one side:'));
   surfaceArea = Math.sqrt(3)*(a**2);
+  document.write('The surface area of rectangular tetrahedron is'+surfaceArea);
  }
 
  else {
