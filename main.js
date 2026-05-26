@@ -214,7 +214,7 @@ else if (choice==3) {
 else if (choice==4) {
  let tempInput, tempC, tempF, tempK;
  
-  tempInput = prompt('Choose which you want to calculate: 1. Fahrenheit to Celsius 2. Celsius to Fahrenheit 3. Celsius to Kelvin 4. Kelvin to Celsius 5.Fahrenheit to Kelvin 6. Kelvin to Fahrenheit');
+  tempInput = prompt('Choose which you want to calculate: 1. Fahrenheit to Celsius 2. Celsius to Fahrenheit 3. Celsius to Kelvin 4. Kelvin to Celsius 5. Fahrenheit to Kelvin 6. Kelvin to Fahrenheit');
 
  if (tempInput==1) {
   tempF = parseFloat(prompt('Enter the temperature in Fahrenheit:'));
